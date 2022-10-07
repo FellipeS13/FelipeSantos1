@@ -1,0 +1,224 @@
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(33,33,36,1) 28%, rgba(105,105,105,1) 100%);
+}
+header {
+  background-color: azure;
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin-left: 400px;
+  list-style: none;
+  margin-top: 16px;
+}
+#nav :hover {
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 0);
+  color: azure;
+  border-radius: 10%;
+  transition: 0.5s;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+.carousel {
+  margin-top: 20px;
+  height: 600px;
+}
+img {
+  height: 600px;
+}
+.Types {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+  height: 200px;
+}
+.Icones {
+  height: 150px;
+  width: 150px;
+}
+.cars {
+  height: 500px;
+  width: 660px;
+  
+}
+.Sport {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.Sport:hover{
+  background-color:darkgrey;
+  border-radius: 10%;
+
+  transition: 0.5s;
+}
+#Lcars {
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+#Lcars :hover {
+  border: #ffff;
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+hr {
+  margin: 20px auto;
+  width: 90%;
+  color: aliceblue;
+}
+.Catalogo {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  width: 83.7%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(246, 248, 249);
+  background: -moz-linear-gradient(
+    left,
+    rgba(246, 248, 249, 1) 0%,
+    rgba(215, 222, 227, 1) 15%,
+    rgba(215, 222, 227, 1) 32%,
+    rgba(215, 222, 227, 1) 32%,
+    rgba(215, 222, 227, 1) 42%,
+    rgba(229, 235, 238, 1) 56%,
+    rgba(229, 235, 238, 1) 56%,
+    rgba(215, 222, 227, 1) 69%,
+    rgba(215, 222, 227, 1) 89%,
+    rgba(245, 247, 249, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(246, 248, 249, 1) 0%,
+    rgba(215, 222, 227, 1) 15%,
+    rgba(215, 222, 227, 1) 32%,
+    rgba(215, 222, 227, 1) 32%,
+    rgba(215, 222, 227, 1) 42%,
+    rgba(229, 235, 238, 1) 56%,
+    rgba(229, 235, 238, 1) 56%,
+    rgba(215, 222, 227, 1) 69%,
+    rgba(215, 222, 227, 1) 89%,
+    rgba(245, 247, 249, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(246, 248, 249, 1) 0%,
+    rgba(215, 222, 227, 1) 15%,
+    rgba(215, 222, 227, 1) 32%,
+    rgba(215, 222, 227, 1) 32%,
+    rgba(215, 222, 227, 1) 42%,
+    rgba(229, 235, 238, 1) 56%,
+    rgba(229, 235, 238, 1) 56%,
+    rgba(215, 222, 227, 1) 69%,
+    rgba(215, 222, 227, 1) 89%,
+    rgba(245, 247, 249, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 */
+}
+
+.col {
+  display: inline-block;
+  position: relative;
+}
+.col figcaption {
+  position: absolute;
+  color: rgb(173, 173, 173);
+  bottom: 65px;
+  right: 20px;
+  font-size: 60px;
+  opacity: 1;
+  font-family: 'Poppins', sans-serif;
+}
+.search {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 200px;
+  color: #ffff;
+}
+#nme {
+  width: 50%;
+  margin-left: 15px;
+  height: 38px;
+  margin-right: 5px;
+}
+#subtitulo {
+  text-align: center;
+}
+
+.formulario {
+  background-color: aliceblue;
+  width: 50%;
+  margin-left: 25%;
+  border-style: double;
+  border-radius: 10px;
+  height: 500px;
+}
+.Reclame {
+  text-align: center;
+  color: aliceblue;
+}
+.form-floating {
+  width: 50%;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+.form-control {
+  height: 200px;
+  max-height: 200px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: aliceblue;
+  color: black;
+  height: 200px;
+}
+.Fta {
+  margin-left: 60px;
+  margin-top: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+.Ftb {
+  margin-right: 150px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+.Ftc {
+  max-width: 450px;
+  max-height: 200px;
+  margin-top: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+.btnSub {
+  margin-top: 1px;
+}
+#floatingTextarea {
+  height: 150px;
+}
+h1{
+  font-family:'Poppins', sans-serif;;
+}
+h2{
+  font-family:'Poppins', sans-serif;;
+}
+
